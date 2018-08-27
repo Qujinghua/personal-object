@@ -7,6 +7,7 @@ import VueAxios from 'vue-axios'
 
 Vue.config.productionTip = false
 Vue.use(VueAxios, axios)
+require('./mock/mock.js')
 
 new Vue({
   router,
