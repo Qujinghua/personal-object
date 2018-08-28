@@ -27,10 +27,10 @@ const produceNewsData = function() {
 
 const getData = function() {
     let getNewsData = [
-        {'id': 1, 'quantity': 1, 'name': 'Compass'},
-        {'id': 2, 'quantity': 0, 'name': 'Jack'},
-        {'id': 3, 'quantity': 5, 'name': 'Tom'},
-        {'id': 4, 'quantity': 2, 'name': 'Mary'},
+        {'id': 1, 'quantity': 1, 'name': '苹果'},
+        {'id': 2, 'quantity': 0, 'name': '香蕉'},
+        {'id': 3, 'quantity': 5, 'name': '西瓜'},
+        {'id': 4, 'quantity': 2, 'name': '桃子'},
     ]
     return getNewsData
 }
