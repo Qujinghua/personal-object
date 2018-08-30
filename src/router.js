@@ -25,6 +25,11 @@ export default new Router({
       path: '/videoexample',
       name: 'videoexample',
       component: () => import('./views/videoexample/index.vue')
+    },
+    {
+      path: '/lazyload',
+      name: 'lazyload',
+      component: () => import('./views/lazyload/index.vue')
     }
   ]
 })
