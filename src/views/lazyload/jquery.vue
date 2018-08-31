@@ -1,7 +1,20 @@
 <template>
   <div class="jquerylazy">
     <div class="jquerylazy-box"></div>
-    <img src="../../assets/logo.png" data-src="../../assets/logo.png">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/flower.d93dfe26.jpg">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/sky.1048b94b.jpg">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/time.11e7b48e.jpg">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/time2.e53f1801.jpg">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/time3.cfa4c564.jpg">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/time4.5afddf88.jpg">
+    <img src="../../assets/lazyload/loading.gif" data-src="/img/time5.d5b69446.jpg">
+    <!-- <img src="../../assets/lazyload/flower.jpg">
+    <img src="../../assets/lazyload/sky.jpg">
+    <img src="../../assets/lazyload/time.jpg">
+    <img src="../../assets/lazyload/time2.jpg">
+    <img src="../../assets/lazyload/time3.jpg">
+    <img src="../../assets/lazyload/time4.jpg">
+    <img src="../../assets/lazyload/time5.jpg"> -->
   </div>
 </template>
 <script>
@@ -59,8 +72,12 @@ export default {
 <style lang="less" scoped>
 .jquerylazy {
   &-box{
-    height: 700px;
+    height: 500px;
     width: 100%;
+  }
+  & img {
+    width: 40%;
+    margin-left: 10%;
   }
 }
 </style>
