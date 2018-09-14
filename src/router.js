@@ -30,6 +30,11 @@ export default new Router({
       path: '/lazyload',
       name: 'lazyload',
       component: () => import('./views/lazyload/index.vue')
+    },
+    {
+      path: '/PChild',
+      name: 'PChild',
+      component: () => import('./views/PChild/parent.vue')
     }
   ]
 })
