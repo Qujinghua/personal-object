@@ -35,6 +35,11 @@ export default new Router({
       path: '/PChild',
       name: 'PChild',
       component: () => import('./views/PChild/parent.vue')
+    },
+    {
+      path: '/regular',
+      name: 'regular',
+      component: () => import('./views/regular/index.vue')
     }
   ]
 })
